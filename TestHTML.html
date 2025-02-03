@@ -1,23 +1,21 @@
 <!DOCTYPE html>
 <html>
     <body>
-        <h2>My First Web Page</h2>
-        <script>
-            document.write(5+6);
-        </script>
-        <p>My First Paragraph.</p>
-        <p>dsbvbfdbvhdsvbfsv nc nvs nv xnc vf v</p>
+        <h2>Javascript Statements</h2>
 
-        <button type="button" onclick="document.write(5+17)">Try it</button>
+        <p id="p">Javascript code blocks are written between { and }</p>
 
-        <script>
-            alert(12+48)
-        </script>
+        <button type="button" onclick="myFunction()">Click me!</button>
+
+        <p id="demo1">1</p>
+        <p id="demo2">2</p>
 
         <script>
-            console.log(9998+1)
+            function myFunction(){
+                document.getElementById('demo1').innerHTML='Hello Dolly!';
+                document.getElementById('demo2').innerHTML='How are you?';
+                document.getElementById('p').innerHTML = 'Changed';
+            }
         </script>
-
-        <button onclick="window.print()">Print this page</button>
     </body>
 </html>
