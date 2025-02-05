@@ -1,3 +1,6 @@
-function myFunction(){
-    document.getElementById("demo").innerHTML="Paragraph Changed! 1 2 3 ..."
+let x = myFunction;
+document.getElementById("demo").innerHTML = x;
+
+function myFunction(x, y) {
+    return x * y;
 }
