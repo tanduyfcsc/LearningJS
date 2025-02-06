@@ -88,14 +88,18 @@
 //     document.getElementById("demo").innerHTML = text.toUpperCase();
 // }
 
-let text = "Hello World!";
+// let text = "Hello World!";
 
-const myArr = text.split("");
+// const myArr = text.split("");
 
-text = "";
+// text = "";
 
-for (let i = 0; i< myArr.length; i++) {
-    text += myArr[i] + "<br>"
-}
+// for (let i = 0; i< myArr.length; i++) {
+//     text += myArr[i] + "<br>"
+// }
 
-document.getElementById("demo").innerHTML = text;
+// document.getElementById("demo").innerHTML = text.toU;
+
+let text = "The rain in SPAIN stays mainly in the plain";
+const myArr = text.match(/ain/gi);
+document.getElementById("demo").innerHTML = myArr.length + " " + myArr;
