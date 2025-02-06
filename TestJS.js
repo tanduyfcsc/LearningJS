@@ -69,6 +69,33 @@
 //     document.getElementById("demo").innerHTML = Date();
 // }
 
-let text = 'Toi \'la \f \"Duy dep trai\"';
-document.getElementById("demo").innerHTML = 
-text
+// let text = 'Toi \'la \f \"Duy dep trai\"';
+// let text = "Apple, Banana, Kiwi";
+// let part = text.slice(-12, -6);
+// document.getElementById("demo").innerHTML = part;
+
+// let text1 = "        Hello     ";
+// let change = text1.trim();
+// let text2 = "World!";
+// let text3 = text1.concat("+", "-",text2);
+
+// let text = "9";
+// let change = text.repeat(4);
+
+// document.getElementById("demo").innerHTML = change;
+// function myFunction() {
+//     let text = document.getElementById("demo").innerHTML;
+//     document.getElementById("demo").innerHTML = text.toUpperCase();
+// }
+
+let text = "Hello World!";
+
+const myArr = text.split("");
+
+text = "";
+
+for (let i = 0; i< myArr.length; i++) {
+    text += myArr[i] + "<br>"
+}
+
+document.getElementById("demo").innerHTML = text;
