@@ -65,6 +65,10 @@
 // '<p>The typeof "" is ' + typeof "" + '</p>' + 
 // '<p>The typeof 10 is ' + typeof 10 + '</p'; 
 
-function displayDate(){
-    document.getElementById("demo").innerHTML = Date();
-}
+// function displayDate(){
+//     document.getElementById("demo").innerHTML = Date();
+// }
+
+let text = 'Toi \'la \f \"Duy dep trai\"';
+document.getElementById("demo").innerHTML = 
+text
