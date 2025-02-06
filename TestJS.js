@@ -35,16 +35,16 @@
 
 // document.getElementById("demo").innerHTML = JSON.stringify(person);
 
-function Person(first, last, age, eye){
-    this.first = first;
-    this.last = last;
-    this.age = age;
-    this.eye;
-    // this.nationality = "English"
-    this.fullName = function(){
-        return this.first + " " + this.last;
-    }
-}
+// function Person(first, last, age, eye){
+//     this.first = first;
+//     this.last = last;
+//     this.age = age;
+//     this.eye;
+//     this.nationality = "English"
+//     this.fullName = function(){
+//         return this.first + " " + this.last;
+//     }
+// }
 
 // const myFather = new Person("John", "Doe", 50, "Blue");
 // myFather.nationality = "English";
@@ -60,3 +60,11 @@ function Person(first, last, age, eye){
 // myMother.changeName("Doe");
 
 // document.getElementById("demo").innerHTML = "My father is " + myFather.fullName() + "." + " My mother is " + " " + myMother.last + ".";
+
+// document.getElementById("demo").innerHTML = 
+// '<p>The typeof "" is ' + typeof "" + '</p>' + 
+// '<p>The typeof 10 is ' + typeof 10 + '</p'; 
+
+function displayDate(){
+    document.getElementById("demo").innerHTML = Date();
+}
