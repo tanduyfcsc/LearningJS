@@ -100,6 +100,24 @@
 
 // document.getElementById("demo").innerHTML = text.toU;
 
-let text = "The rain in SPAIN stays mainly in the plain";
-const myArr = text.match(/ain/gi);
-document.getElementById("demo").innerHTML = myArr.length + " " + myArr;
+// let text = "The rain in SPAIN stays mainly in the plain";
+// const myArr = text.match(/ain/gi);
+// document.getElementById("demo").innerHTML = myArr.length + " " + myArr;
+
+// let firstName = "John";
+// let lastName = "Doe";
+
+// let text = `"Welcome ${firstName}, ${lastName} = ${5+5}"`;
+
+let header = "Template Strings";
+let tags = ["template strings", "javascript", "es6"];
+
+let html = `<h2>${header}</h2><ul>`;
+
+for (const x of tags) {
+    html += `<li>${x}</li>`;
+}
+
+html += `</ul>`;
+
+document.getElementById("demo").innerHTML = html;
