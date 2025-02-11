@@ -109,15 +109,27 @@
 
 // let text = `"Welcome ${firstName}, ${lastName} = ${5+5}"`;
 
-let header = "Template Strings";
-let tags = ["template strings", "javascript", "es6"];
+// let header = "Template Strings";
+// let tags = ["template strings", "javascript", "es6"];
 
-let html = `<h2>${header}</h2><ul>`;
+// let html = `<h2>${header}</h2><ul>`;
 
-for (const x of tags) {
-    html += `<li>${x}</li>`;
-}
+// for (const x of tags) {
+//     html += `<li>${x}</li>`;
+// }
 
-html += `</ul>`;
+// html += `</ul>`;
 
-document.getElementById("demo").innerHTML = html;
+// document.getElementById("demo").innerHTML = html;
+
+// let n = 100;
+// let r = n / "a";
+// console.log(isNaN(r));
+
+let myNumber = 2;
+// let txt = "";
+// while(myNumber != Infinity){
+//     myNumber *= myNumber;
+//     txt += myNumber + "<br>";
+// }
+document.getElementById("demo").innerHTML = myNumber.toString(2);
